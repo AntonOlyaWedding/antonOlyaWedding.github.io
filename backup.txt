@@ -1,0 +1,152 @@
+body, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #444;
+	color: #333;
+	font-family: Helvetica, sans-serif;
+}
+/*
+#book {		
+	width: 1630px; 
+	height: 800px;
+}
+*/
+/*
+#pages section {
+	background: #daeaf9;
+	background-origin: content-box;
+	
+	position: absolute;
+	left: 815px; 
+	
+	display: block;
+	width: 815px;
+	height: 800px;
+	padding-left: 30px;
+	
+	overflow: hidden;
+	
+    box-sizing: border-box;
+}
+*/
+/*
+#pages section>div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	font-size: 12px;
+	
+	width: 785px; 
+	height: 800px;
+}
+*/
+/*
+#pages section p,
+#pages section h2 {
+	display: none;
+
+	padding: 3px 35px;
+	line-height: 1.4em;
+	text-align: justify;
+}
+#pages section h2{
+	display: none;
+}
+*/
+/*
+#pageflip-canvas {
+	position: absolute;
+	z-index: 100;
+}
+*/
+/*
+#pages section div p{
+	margin-top: 50px;	
+	margin-bottom: 20px;
+}
+*/
+/*
+#pages  .pageHeader{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	z-index: 4;
+	
+	display: table-cell;
+	width: 450px;
+
+	font-size: 40px;
+	
+	transform:translate(-50%, -50%); 
+	transition-duration: 2s;
+}
+*/
+.pageHeader-hide{
+	opacity :0;
+}
+
+/*
+section img{	
+	width: 500px;
+	height: auto;
+	margin-top: 50px;
+    margin-bottom: 20px;
+}
+*/
+.tableobj{
+	position: absolute;	
+}
+
+
+body{
+	background-image: url("table.jpg");	
+}
+
+#book{		
+	background: white;
+	background-image: linear-gradient(to right, #daeaf9 780px, #9db7ce 810px, #9db7ce 814px, #2d699e 815px, #9db7ce 816px, #9db7ce 820px, #daeaf9 840px);
+}
+/*
+.book-border{
+	position: absolute;	
+	left: 50%;
+	top: 50%;
+	
+	width: 1630px; 
+	height: 800px;
+	margin-left: -800px; 
+	margin-top: -400px;
+	
+	border: 30px solid gold;
+	border-image-source: url("1781465-607d8b.png");
+	border-image-slice: 100;
+	border-image-repeat: round;
+	border-radius: 15px;	
+	
+	background-color: rgb(253, 251, 227);
+}
+*/
+.book-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+	margin: 20px 20px;
+}
+.book-border{
+	flex-basis: 1630px;
+	height: 800px;
+	
+	border: 30px solid gold;
+	border-image-source: url("1781465-607d8b.png");
+	border-image-slice: 100;
+	border-image-repeat: round;
+	border-radius: 15px;	
+	
+	background-color: rgb(253, 251, 227);
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link type="text/css" href="main.css" rel="stylesheet" media="screen" />
+	</head>
+	<body>
+		<canvas id="rain-canvas" class="hidden"></canvas>
+		<div class="book-container">			
+			<div class="book-border">
+				<canvas id="pageflip-canvas"></canvas>	
+				<div class="backgPage bp_1"></div>
+				<div class="backgPage bp_2"></div>
+				<div class="backgPage bp_3"></div>
+				<div class="backgPage bp_4"></div>
+				<div class="backgPage bp_5"></div>
+				<div class="backgPage bp_6"></div>
+				<div class="backgPage bp_7"></div>
+				<div id="book">	
+					<div class="pageHeader">
+						<div class="pageHeader-text"></div>
+					</div>
+					<div id="pages">	
+						<section class="firstPage">
+							<div>
+								<div class="leftPage">
+									<p style="position: absolute; z-index: 99; font-size: 50px; top: 90px; right: 180px;">Посвящается Антону и Ольге</p>
+									<img id="img_0" src="7_1.png" width="700" height="700">
+								</div>								
+								<img id="img_0_1" src="32.png" width="700" height="700">
+							</div>								
+						</section>
+						<section>
+							<div>
+								<div class="leftPage">
+									<img id="img_1_0" src="1_1.png" width="650" height="650">
+									<p>Сегодня состоялась свадьба ваша,<br>
+									Поздравить вас я с ней скорей хочу, <br>
+									Ведь вместе путь совсем-совсем не страшен, <br>
+									Когда стоите вместе вы плечом к плечу.<br></p>
+								</div>						
+								
+								<img id="img_1" src="cNGdn14o80o_4.jpg" width="450" height="458">
+								<img id="img_1_1" src="y_1fca75c8_1.jpg" width="300" height="200">
+								<img id="img_1_2" src="uabjgWESl1A_2.jpg" width="250" height="277">
+							</div>								
+						</section>
+						<section>
+							<div>	
+								<div class="leftPage">
+									<img id="img_2_0" src="12_1.png" width="600" height="474">
+									<p>От всей души желаю вам любви навечно<br>
+									Такой, что хочется парить, летать.<br> 
+									Такой красивой, как путь млечный<br>
+									И чтоб от вас не смела исчезать.<br></p>
+								</div>
+								
+								<!--<img id="img_2" src="DH14A0CJZMQ.jpg" width="100" height="100">-->
+								<!--<img id="img_2_1" src="page2_left_top2.png" width="100" height="100">-->
+								<!--<img id="img_2_2" src="page2_left_bottom2.png" width="100" height="100">-->
+								<img id="img_2" src="page2_center.jpg" width="1168" height="840">
+								<img id="img_2_1" src="page2_1.jpg" width="230" height="302">
+								<img id="img_2_2" src="page2_2.jpg" width="280" height="211">
+							</div>	
+						</section>
+						<section>
+							<div>
+								<div class="leftPage">
+									<img id="img_3_0" src="30.png" width="720" height="720">
+									<p>Желаю вам тепла побольше и уюта,<br> 
+									Большой, родной и навсегда любимый дом<br> 
+									И чтобы жизни каждую минуту<br> 
+									Вы не жалели никогда и не о чём.<br></p>
+								</div>
+								
+								<img id="img_3" src="page3_center.jpg" width="675" height="900">
+								<img id="img_3_1" src="page3_top.jpg" width="270" height="203">
+								<img id="img_3_2" src="page3_2.jpg" width="240" height="240">
+							</div>								
+						</section>
+						<section>	
+							<div>	
+								<div class="leftPage">
+									<img id="img_4_0" src="17.png" width="740" height="430">
+									<p>Желаю никогда беды не знать,<br> 
+									Семейный ваш очаг хранить, беречь<br> 
+									Всегда любить, друг друга, верно ждать<br> 
+									И помнить каждую из ваших в жизни встреч.<br> </p>
+								</div>
+								
+								<!--<img id="img_4" src="RCH529a-hC8.jpg" width="100" height="100">-->
+								<img id="img_4" src="page4_left2.jpg" width="504" height="800">
+								<img id="img_4_1" src="page4_right_top3.jpg" width="280" height="211">
+								<img id="img_4_2" src="page4_right_bottom.jpg" width="280" height="210">
+							</div>								
+						</section>
+						<section>
+							<div>	
+								<div class="leftPage">
+									<img id="img_5_0" src="3_1.png" width="600" height="600">
+									<p>Желаю слышать звонкий смех детишек,<br> 
+									Запомнить эту свадьбу навсегда<br> 
+									И чтобы как в любви из фильма или книжек<br> 
+									Не разлучились ни за что и никогда.<br></p>
+								</div>
+								
+								<img id="img_5" src="page5_center.jpg" width="520" height="520">
+								<img id="img_5_1" src="page4_right_top.jpg" width="230" height="230">
+								<img id="img_5_2" src="page5_right.jpg" width="240" height="240">
+							</div>								
+						</section>
+						<section>
+							<div>	
+								<div class="leftPage">	
+									<img id="img_6" src="21606938.png" width="520" height="520">	
+								</div>
+								
+								<span class="lastPageText">Поздравляю!</span>						
+							</div>								
+						</section>
+					</div>
+				</div>
+			</div>			
+		</div>		
+		<button class="flip-button next">Вперед</button>
+		<button class="flip-button prev">Назад</button>
+		<button class="flip-button rain hidden">Дождь</button>
+		
+		<!--
+		<img src="pacifier.png" class="pacifier hidden">		
+		<img src="duckling.png" class="duckling hidden">
+		<img src="teddy.png" class="teddy hidden">
+		-->
+		<script type="text/javascript" src="pageflip.js"></script>
+		<script type="text/javascript" src="startRain.js"></script>
+		<script type="text/javascript" src="drawBackPages.js"></script>
+		
+	</body>
+<html>
